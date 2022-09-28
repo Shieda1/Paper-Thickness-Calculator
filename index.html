@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paper Thickness Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- radio -->
+  <input type="radio" id="paperthicknessRadio" name="variables" checked>
+  <label for="paperthicknessRadio">Paper thickness</label>
+
+  <input type="radio" id="stackthicknessRadio" name="variables">
+  <label for="stackthicknessRadio">Stack thickness</label>
+
+  <input type="radio" id="quantityofpapersheetsRadio" name="variables">
+  <label for="quantityofpapersheetsRadio">Quantity of paper sheets</label><br><br>
+  <!-- end radio -->
+  
+  <label for="v1" id="variable1">Stack thickness</label>
+  <input type="number" id="v1"><br><br>
+  
+  <label for="v2" id="variable2">Quantity of paper sheets</label>
+  <input type="number" id="v2"><br><br>
+
+  <button id="btn">compute</button>
+
+  <p id="result"></p>
+  <script src="app.js"></script>
+</body>
+</html>
